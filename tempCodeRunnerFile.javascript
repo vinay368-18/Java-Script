@@ -1,7 +1,4 @@
-let radius = 5
-
-let pi = 3.14
-
-let area = pi*radius*radius
-
-console.log(area)
+n = 100
+for(i=0;i<=n;i++)
+    if(i%2 != 0)
+        console.log(i);
