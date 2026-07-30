@@ -1,7 +1,4 @@
-// Function expression
-
-let a = function(a,b){
-    return a+b;
+let greet = (user)=>{
+    console.log("hello "+user);
 }
-let result = a(5,6);
-console.log(result);
+greet("Vinay");
