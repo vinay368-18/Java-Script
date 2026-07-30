@@ -1,6 +1,6 @@
-let day="monda";
+let day = "monday";
 
-switch(day){
+switch (day) {
     case "monday":
         console.log("4am");
         break;
