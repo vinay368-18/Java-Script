@@ -1,4 +1,6 @@
-let greet = (user)=>{
-    console.log("hello "+user);
+function add(a,b){
+    a = Math.abs(a);
+    b = Math.abs(b);
+    return a+b;
 }
-greet("Vinay");
+console.log(add(10,-20));
