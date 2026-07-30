@@ -15,3 +15,7 @@ let input = 'name'
 console.log(alien[input])
 
 console.log(alien.laptop)
+
+delete alien.laptop
+
+console.log(alien)
