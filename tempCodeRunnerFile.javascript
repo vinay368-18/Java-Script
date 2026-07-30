@@ -1,23 +1,8 @@
-let day="monda";
-
-switch(day){
-    case "monday":
-        console.log("4am");
-        break;
-    case "tuesday":
-        console.log("5am");
-        break;
-    case "wednesday":
-        console.log("7am")
-        break;
-    case "thursday":
-    case "friday":
-        console.log("8am")
-        break;
-    case "saturday":
-    case "sunday":
-        console.log("9am")
-        break;
-    default:
-        console.log("Invalid day")
+let r,num = 123456
+let s = ""
+while(num!=0){
+    r=num%10;
+    num=parseInt(num/10);
+    s = s+String(r)
 }
+console.log(s)
