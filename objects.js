@@ -15,7 +15,11 @@ let input = 'name'
 console.log(alien[input])
 
 console.log(alien.laptop)
+console.log("Keys using for in loop")
+for (let key in alien)
+    console.log(key)
 
 delete alien.laptop
 
 console.log(alien)
+
