@@ -4,5 +4,5 @@ str = str.split(' ')
 
 console.log(str);
 
-let [a,b,c,,e] = str;
-console.log(a,b,c,e);
+let [a, b, c, , e] = str; // array destructuring    
+console.log(a, b, c, e);
