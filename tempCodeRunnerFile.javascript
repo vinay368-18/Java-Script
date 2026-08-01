@@ -1,14 +1,10 @@
 
-let s = new Set()
+let map = new Map();
+map.set("Vinay",122);
+map.set("Arjun",123);
+map.set("Dev",124);
+map.set("Abhay",125);
 
-s.add(10);
-s.add(20);
-s.add(10);
-s.add(30);
-s.add(40);
-s.add(50);
-console.log(s);
-console.log(s.has(40));
-
-
-
+for(let [k,v] of map)
+    console.log(k+" : "+v);
+    
